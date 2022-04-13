@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #red {
+                background-color: red;
+            }
+            #blue {
+                background-color: blue;
+            }
+            body {
+                margin: 0;
+            }
+            .inner {
+                display: inline-block;
+                height: 100px;
+                width: 100px;
+                background-color: black;
+                margin-left: 50px;
+                margin-top: 50px;
+            }
+            .outer {
+                width: 350px;
+                height: 200px;
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body><div class="outer" id="red">
+            <div class="inner"></div>
+            <div class="inner"></div>
+        </div>
+        <br>
+        <div class="outer" id="blue">
+            <div class="inner"></div>
+            <div class="inner"></div>
+        </div></body>
+</html>
